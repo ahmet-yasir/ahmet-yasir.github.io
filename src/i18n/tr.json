@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "about": "Hakkımda",
+    "projects": "Projeler",
+    "publications": "Yayınlar",
+    "education": "Eğitim",
+    "certifications": "Sertifikalar",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Bilgisayar Mühendisliği Öğrencisi",
+    "subtitle": "Yapay Zeka & Makine Öğrenmesi",
+    "cta_projects": "Projeleri Gör",
+    "cta_contact": "İletişime Geç"
+  },
+  "about": {
+    "heading": "Hakkımda",
+    "bio": "Bilgisayar Mühendisliği 4. sınıf öğrencisi olarak yapay zeka, makine öğrenmesi ve yazılım geliştirme alanlarında uçtan uca projeler üretmiş, araştırma odaklı bir geliştiriciyim. Python, TensorFlow, Keras, SQL, Java, Node.js ve React Native başta olmak üzere geniş bir teknoloji yelpazesinde edindiğim pratik deneyimle; federe öğrenme, RAG mimarisi ve derin öğrenme tabanlı öneri sistemleri gibi ileri düzey yapay zeka yaklaşımlarını gerçek ürünlere dönüştürdüm. TÜBİTAK 2209-A destekli araştırmam uluslararası bir konferansta yayımlandı.",
+    "skills_label": "Teknolojiler",
+    "skills": ["Python", "TensorFlow", "Keras", "Java", "C", "SQL", "Node.js", "React Native", "Git", "GitHub"]
+  },
+  "projects": {
+    "heading": "Projeler",
+    "github_label": "GitHub",
+    "items": [
+      {
+        "title": "Federe Öğrenme ile Model Eğitimi",
+        "description": "Kullanıcı verileri istemci tarafında tutularak yalnızca model ağırlıklarının sunucuya gönderildiği, gizliliği koruyan merkeziyetsiz bir yapay zeka eğitim sistemi. TÜBİTAK 2209-A kapsamında desteklenmiş ve UAKK'ta uluslararası bildiri olarak yayımlanmıştır.",
+        "tags": ["Python", "TensorFlow", "Federated Learning"],
+        "badge": "TÜBİTAK 2209-A"
+      },
+      {
+        "title": "Yapay Zeka Tabanlı Film Öneri Sistemi",
+        "description": "Kullanıcıların geçmiş film puanlarına göre kişiye özel film önerileri yapan sistem. TensorFlow tabanlı collaborative filtering motoru ile kullanıcı-film etkileşim verileri üzerinde eğitilmiştir.",
+        "tags": ["Python", "TensorFlow", "Keras", "Collaborative Filtering"]
+      },
+      {
+        "title": "TarihBot",
+        "description": "Türkiye Cumhuriyeti'nin 1923 sonrası dönemine dair soruları yanıtlayan RAG tabanlı yapay zeka sohbet uygulaması. Wikipedia içeriklerinden oluşturulan özel veri kümesiyle çalışır ve Streamlit tabanlı web arayüzü sunar.",
+        "tags": ["Python", "RAG", "Streamlit", "LLM"]
+      },
+      {
+        "title": "Listify",
+        "description": "iOS ve Android'de çalışan çok dilli alışveriş listesi uygulaması. AsyncStorage ile yerel depolama, REST API ile 6 haneli kodla liste paylaşımı, kategori sıralama, karanlık mod ve Fuse.js bulanık arama içerir.",
+        "tags": ["React Native", "Expo", "iOS", "Android"]
+      }
+    ]
+  },
+  "publications": {
+    "heading": "Yayınlar",
+    "paper_title": "Model Training and Real World Analysis Using Health Data with Federated Learning",
+    "conference": "Uluslararası Açık Kaynak Konferansı (UAKK)",
+    "year": "2024",
+    "support": "TÜBİTAK 2209-A Programı kapsamında desteklenmiştir.",
+    "type": "Bildiri"
+  },
+  "education": {
+    "heading": "Eğitim",
+    "university": "Marmara Üniversitesi",
+    "degree": "Bilgisayar Mühendisliği",
+    "period": "2021 – Devam ediyor",
+    "level": "Lisans"
+  },
+  "certifications": {
+    "heading": "Sertifikalar",
+    "items": [
+      {
+        "name": "Linux 101–401",
+        "issuer": "Turkcell – Geleceği Yazanlar",
+        "year": "2025"
+      },
+      {
+        "name": "TensorFlow 2 & Keras Deep Learning",
+        "issuer": "Udemy",
+        "year": "2025"
+      },
+      {
+        "name": "UAKK 2024 Konferans Katılımı",
+        "issuer": "Uluslararası Açık Kaynak Konferansı",
+        "year": "2024"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "İletişim",
+    "subtitle": "Benimle iletişime geçmek ister misiniz?",
+    "email_label": "E-posta",
+    "location": "Ankara, Türkiye"
+  },
+  "footer": {
+    "copy": "© 2025 Ahmet Yasir Kulaksız"
+  }
+}

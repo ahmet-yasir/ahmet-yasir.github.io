@@ -1,0 +1,52 @@
+.about__layout {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+}
+
+.about__avatar {
+  flex-shrink: 0;
+}
+
+.about__avatar-placeholder {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), #60a5fa);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+
+.about__bio {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--text);
+  margin-bottom: 28px;
+}
+
+.about__skills-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 12px;
+}
+
+.about__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 640px) {
+  .about__layout {
+    flex-direction: column;
+    gap: 24px;
+  }
+}

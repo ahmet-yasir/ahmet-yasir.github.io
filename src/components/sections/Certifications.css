@@ -1,0 +1,52 @@
+.cert-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 600px;
+}
+
+.cert-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px 20px;
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: box-shadow 0.2s ease;
+}
+
+.cert-item:hover {
+  box-shadow: var(--shadow);
+}
+
+.cert-icon {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #eff6ff;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.cert-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.cert-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.cert-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}

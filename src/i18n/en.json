@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "publications": "Publications",
+    "education": "Education",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Computer Engineering Student",
+    "subtitle": "Artificial Intelligence & Machine Learning",
+    "cta_projects": "View Projects",
+    "cta_contact": "Contact Me"
+  },
+  "about": {
+    "heading": "About Me",
+    "bio": "As a 4th-year Computer Engineering student, I am a research-oriented developer who has built end-to-end projects in artificial intelligence, machine learning, and software development. With hands-on experience across a wide technology stack including Python, TensorFlow, Keras, SQL, Java, Node.js, and React Native, I have turned advanced AI approaches such as federated learning, RAG architecture, and deep learning-based recommendation systems into real products. My research project was supported under TÜBİTAK's 2209-A program and published at an international conference.",
+    "skills_label": "Technologies",
+    "skills": ["Python", "TensorFlow", "Keras", "Java", "C", "SQL", "Node.js", "React Native", "Git", "GitHub"]
+  },
+  "projects": {
+    "heading": "Projects",
+    "github_label": "GitHub",
+    "items": [
+      {
+        "title": "Federated Learning Model Training",
+        "description": "A privacy-preserving decentralized AI training system where user data stays on the client side and only model weights are sent to the server. Supported by TÜBİTAK 2209-A and published as an international paper at UAKK.",
+        "tags": ["Python", "TensorFlow", "Federated Learning"],
+        "badge": "TÜBİTAK 2209-A"
+      },
+      {
+        "title": "AI-Based Movie Recommendation System",
+        "description": "A system that provides personalized movie recommendations based on users' past ratings. Powered by a TensorFlow-based collaborative filtering engine trained on user-movie interaction data.",
+        "tags": ["Python", "TensorFlow", "Keras", "Collaborative Filtering"]
+      },
+      {
+        "title": "TarihBot",
+        "description": "A RAG-based AI chatbot that answers questions about the Republic of Turkey from 1923 onwards. Built on a custom dataset from Wikipedia and features a user-friendly Streamlit web interface.",
+        "tags": ["Python", "RAG", "Streamlit", "LLM"]
+      },
+      {
+        "title": "Listify",
+        "description": "A multilingual shopping list app for iOS and Android. Features local storage with AsyncStorage, list sharing via 6-digit code through REST API, category sorting, dark mode, and fuzzy search with Fuse.js.",
+        "tags": ["React Native", "Expo", "iOS", "Android"]
+      }
+    ]
+  },
+  "publications": {
+    "heading": "Publications",
+    "paper_title": "Model Training and Real World Analysis Using Health Data with Federated Learning",
+    "conference": "International Open Source Conference (UAKK)",
+    "year": "2024",
+    "support": "Supported under TÜBİTAK 2209-A Program.",
+    "type": "Conference Paper"
+  },
+  "education": {
+    "heading": "Education",
+    "university": "Marmara University",
+    "degree": "Computer Engineering",
+    "period": "2021 – Present",
+    "level": "Bachelor's Degree"
+  },
+  "certifications": {
+    "heading": "Certifications",
+    "items": [
+      {
+        "name": "Linux 101–401",
+        "issuer": "Turkcell – Geleceği Yazanlar",
+        "year": "2025"
+      },
+      {
+        "name": "TensorFlow 2 & Keras Deep Learning",
+        "issuer": "Udemy",
+        "year": "2025"
+      },
+      {
+        "name": "UAKK 2024 Conference Participation",
+        "issuer": "International Open Source Conference",
+        "year": "2024"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "subtitle": "Want to get in touch?",
+    "email_label": "Email",
+    "location": "Ankara, Türkiye"
+  },
+  "footer": {
+    "copy": "© 2025 Ahmet Yasir Kulaksız"
+  }
+}

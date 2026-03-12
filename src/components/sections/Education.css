@@ -1,0 +1,41 @@
+.education__timeline {
+  padding-left: 20px;
+  border-left: 2px solid var(--border);
+}
+
+.education__item {
+  position: relative;
+  padding-left: 28px;
+  padding-bottom: 8px;
+}
+
+.education__dot {
+  position: absolute;
+  left: -27px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  border: 2px solid var(--bg);
+  box-shadow: 0 0 0 2px var(--accent);
+}
+
+.education__university {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.education__degree {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.education__period {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--accent);
+}
