@@ -18,7 +18,8 @@ export default function Projects() {
             description={project.description}
             tags={project.tags}
             badge={project.badge}
-            githubLabel={t('projects.github_label')}
+            url={project.url}
+            visitLabel={t('projects.visit_label')}
           />
         ))}
       </div>

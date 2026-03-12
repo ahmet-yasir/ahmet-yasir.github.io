@@ -2,7 +2,7 @@
   min-height: calc(100vh - var(--navbar-height));
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 60%);
+  background: linear-gradient(135deg, #1a1d27 0%, #0f1117 60%);
   border-bottom: 1px solid var(--border);
 }
 

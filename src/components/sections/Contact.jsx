@@ -6,7 +6,7 @@ export default function Contact() {
   const { t } = useTranslation();
 
   return (
-    <SectionWrapper id="contact">
+    <SectionWrapper id="contact" className="section--surface">
       <h2 className="section-heading">{t('contact.heading')}</h2>
       <p className="contact__subtitle">{t('contact.subtitle')}</p>
       <div className="contact__links">

@@ -19,9 +19,9 @@ export default function Navbar() {
 
   const navLinks = [
     { key: 'about', href: '#about' },
+    { key: 'education', href: '#education' },
     { key: 'projects', href: '#projects' },
     { key: 'publications', href: '#publications' },
-    { key: 'education', href: '#education' },
     { key: 'certifications', href: '#certifications' },
     { key: 'contact', href: '#contact' },
   ];
@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
       <div className="navbar__inner container">
-        <a href="#hero" className="navbar__brand">AYK</a>
+        <a href="#hero" className="navbar__brand">{t('nav.home')}</a>
 
         <ul className={`navbar__links${menuOpen ? ' navbar__links--open' : ''}`}>
           {navLinks.map(({ key, href }) => (

@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Home",
     "about": "About",
     "projects": "Projects",
     "publications": "Publications",
@@ -10,8 +11,7 @@
   "hero": {
     "title": "Computer Engineering Student",
     "subtitle": "Artificial Intelligence & Machine Learning",
-    "cta_projects": "View Projects",
-    "cta_contact": "Contact Me"
+    "cta_cv": "Download CV"
   },
   "about": {
     "heading": "About Me",
@@ -22,27 +22,32 @@
   "projects": {
     "heading": "Projects",
     "github_label": "GitHub",
+    "visit_label": "Visit Project",
     "items": [
       {
         "title": "Federated Learning Model Training",
         "description": "A privacy-preserving decentralized AI training system where user data stays on the client side and only model weights are sent to the server. Supported by TÜBİTAK 2209-A and published as an international paper at UAKK.",
         "tags": ["Python", "TensorFlow", "Federated Learning"],
-        "badge": "TÜBİTAK 2209-A"
+        "badge": "TÜBİTAK 2209-A",
+        "url": "https://github.com/ahmet-yasir/Federe-Ogrenme-Yontemiyle-Model-Egitimi-ve-Gercek-Hayat-Analizi"
       },
       {
         "title": "AI-Based Movie Recommendation System",
         "description": "A system that provides personalized movie recommendations based on users' past ratings. Powered by a TensorFlow-based collaborative filtering engine trained on user-movie interaction data.",
-        "tags": ["Python", "TensorFlow", "Keras", "Collaborative Filtering"]
+        "tags": ["Python", "TensorFlow", "Keras", "Collaborative Filtering"],
+        "url": "https://github.com/ahmet-yasir/Movie-Predict"
       },
       {
         "title": "TarihBot",
         "description": "A RAG-based AI chatbot that answers questions about the Republic of Turkey from 1923 onwards. Built on a custom dataset from Wikipedia and features a user-friendly Streamlit web interface.",
-        "tags": ["Python", "RAG", "Streamlit", "LLM"]
+        "tags": ["Python", "RAG", "Streamlit", "LLM"],
+        "url": "https://github.com/ahmet-yasir/chatbot-tarih-qa"
       },
       {
         "title": "Listify",
         "description": "A multilingual shopping list app for iOS and Android. Features local storage with AsyncStorage, list sharing via 6-digit code through REST API, category sorting, dark mode, and fuzzy search with Fuse.js.",
-        "tags": ["React Native", "Expo", "iOS", "Android"]
+        "tags": ["React Native", "Expo", "iOS", "Android"],
+        "url": "https://moonksoftware.github.io/listify"
       }
     ]
   },

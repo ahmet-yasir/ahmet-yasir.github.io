@@ -6,7 +6,7 @@ export default function Education() {
   const { t } = useTranslation();
 
   return (
-    <SectionWrapper id="education">
+    <SectionWrapper id="education" className="section--surface">
       <h2 className="section-heading">{t('education.heading')}</h2>
       <div className="education__timeline">
         <div className="education__item">

@@ -9,19 +9,14 @@ export default function About() {
   return (
     <SectionWrapper id="about">
       <h2 className="section-heading">{t('about.heading')}</h2>
-      <div className="about__layout">
-        <div className="about__avatar">
-          <div className="about__avatar-placeholder">AYK</div>
-        </div>
-        <div className="about__text">
-          <p className="about__bio">{t('about.bio')}</p>
-          <div className="about__skills">
-            <p className="about__skills-label">{t('about.skills_label')}</p>
-            <div className="about__pills">
-              {skills.map((skill) => (
-                <span key={skill} className="pill">{skill}</span>
-              ))}
-            </div>
+      <div className="about__text">
+        <p className="about__bio">{t('about.bio')}</p>
+        <div className="about__skills">
+          <p className="about__skills-label">{t('about.skills_label')}</p>
+          <div className="about__pills">
+            {skills.map((skill) => (
+              <span key={skill} className="pill">{skill}</span>
+            ))}
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ export default function Publications() {
   const { t } = useTranslation();
 
   return (
-    <SectionWrapper id="publications">
+    <SectionWrapper id="publications" className="section--surface">
       <h2 className="section-heading">{t('publications.heading')}</h2>
       <div className="publication-card">
         <div className="publication-card__type">{t('publications.type')}</div>
