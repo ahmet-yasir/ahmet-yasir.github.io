@@ -3,7 +3,7 @@ import './Hero.css';
 
 export default function Hero() {
   const { t, i18n } = useTranslation();
-  const cvFile = i18n.language === 'en' ? '/CV_EN.pdf' : '/CV_TR.pdf';
+  const cvFile = i18n.language === 'en' ? '/AhmetYasirKulaksiz_CV_EN.pdf' : '/AhmetYasirKulaksiz_CV_TR.pdf';
 
   return (
     <section id="hero" className="hero">

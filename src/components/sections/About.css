@@ -27,6 +27,7 @@
   line-height: 1.75;
   color: var(--text);
   margin-bottom: 28px;
+  text-align: justify;
 }
 
 .about__skills-label {

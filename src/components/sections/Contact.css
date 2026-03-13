@@ -2,6 +2,7 @@
   font-size: 1.05rem;
   color: var(--text-muted);
   margin-bottom: 32px;
+  text-align: justify;
 }
 
 .contact__links {
@@ -58,4 +59,7 @@ a.contact__item:hover {
 .contact__value {
   font-size: 0.95rem;
   font-weight: 500;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  min-width: 0;
 }

@@ -23,6 +23,7 @@
   line-height: 1.5;
   margin-bottom: 12px;
   font-style: italic;
+  text-align: justify;
 }
 
 .publication-card__meta {
