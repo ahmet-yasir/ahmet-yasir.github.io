@@ -1,3 +1,9 @@
+.publications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .publication-card {
   background-color: var(--surface-2);
   border: 1px solid var(--border);
@@ -50,4 +56,20 @@
   border-top: 1px solid var(--border);
   padding-top: 10px;
   margin-top: 4px;
+}
+
+.publication-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.publication-card__link:hover {
+  opacity: 0.8;
 }

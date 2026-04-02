@@ -53,11 +53,25 @@
   },
   "publications": {
     "heading": "Publications",
-    "paper_title": "Model Training and Real World Analysis Using Health Data with Federated Learning",
-    "conference": "International Open Source Conference (UAKK)",
-    "year": "2024",
-    "support": "Supported under TÜBİTAK 2209-A Program.",
-    "type": "Conference Paper"
+    "visit_label": "View Publication",
+    "items": [
+      {
+        "paper_title": "Decentralized Disease Prediction: A Federated Learning Perspective",
+        "conference": "Afyon Kocatepe University Journal of Science and Engineering",
+        "year": "2026",
+        "support": "",
+        "type": "Journal Article",
+        "url": "https://dergipark.org.tr/tr/pub/akufemubid/article/1679417"
+      },
+      {
+        "paper_title": "Model Training and Real World Analysis Using Health Data with Federated Learning",
+        "conference": "International Open Source Conference (UAKK)",
+        "year": "2024",
+        "support": "Supported under TÜBİTAK 2209-A Program.",
+        "type": "Conference Paper",
+        "url": "https://www.researchgate.net/profile/Gozde-Karatas-Baydogmus/publication/392967561_Model_Training_and_Real_World_Analysis_Using_Health_Data_with_Federated_Learning/links/685acf6ccdf1a35eb174f9a6/Model-Training-and-Real-World-Analysis-Using-Health-Data-with-Federated-Learning.pdf"
+      }
+    ]
   },
   "education": {
     "heading": "Education",

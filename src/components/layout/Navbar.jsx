@@ -29,7 +29,12 @@ export default function Navbar() {
   return (
     <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
       <div className="navbar__inner container">
-        <a href="#hero" className="navbar__brand">{t('nav.home')}</a>
+        <a href="#hero" className="navbar__brand" aria-label="Home">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+            <polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+        </a>
 
         <ul className={`navbar__links${menuOpen ? ' navbar__links--open' : ''}`}>
           {navLinks.map(({ key, href }) => (
