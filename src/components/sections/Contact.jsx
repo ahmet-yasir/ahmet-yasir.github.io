@@ -49,7 +49,7 @@ export default function Contact() {
             </svg>
           </span>
           <span className="contact__label">{t('contact.location')}</span>
-          <span className="contact__value">Ankara, Türkiye</span>
+          <span className="contact__value">{t('contact.location_value')}</span>
         </div>
       </div>
     </SectionWrapper>

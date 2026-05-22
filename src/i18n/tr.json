@@ -48,6 +48,12 @@
         "description": "iOS ve Android'de çalışan çok dilli alışveriş listesi uygulaması. AsyncStorage ile yerel depolama, REST API ile 6 haneli kodla liste paylaşımı, kategori sıralama, karanlık mod ve Fuse.js bulanık arama içerir.",
         "tags": ["React Native", "Expo", "iOS", "Android"],
         "url": "https://moonksoftware.github.io/listify"
+      },
+      {
+        "title": "ExcelToChart",
+        "description": "Tamamen tarayıcıda çalışan, gizlilik odaklı iş zekası panosu. Excel ve CSV dosyaları sürükle-bırak ile yüklenir; kod yazmadan KPI kartları, çubuk/çizgi/pasta grafikleri ve karşılaştırma tabloları içeren etkileşimli panolar oluşturulur. Tüm veri işleme DuckDB-WASM ile yerel olarak yapılır, dosyalar tarayıcıdan çıkmaz.",
+        "tags": ["React", "TypeScript", "DuckDB-WASM", "ECharts"],
+        "url": "https://github.com/ahmet-yasir/exceltochart"
       }
     ]
   },
@@ -104,7 +110,8 @@
     "heading": "İletişim",
     "subtitle": "Benimle iletişime geçmek ister misiniz?",
     "email_label": "E-posta",
-    "location": "Ankara, Türkiye"
+    "location": "Konum",
+    "location_value": "Ankara, Türkiye"
   },
   "footer": {
     "copy": "© 2025 Ahmet Yasir Kulaksız"

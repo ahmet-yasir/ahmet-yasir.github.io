@@ -48,6 +48,12 @@
         "description": "A multilingual shopping list app for iOS and Android. Features local storage with AsyncStorage, list sharing via 6-digit code through REST API, category sorting, dark mode, and fuzzy search with Fuse.js.",
         "tags": ["React Native", "Expo", "iOS", "Android"],
         "url": "https://moonksoftware.github.io/listify"
+      },
+      {
+        "title": "ExcelToChart",
+        "description": "A privacy-focused business intelligence dashboard that runs entirely in the browser. Upload Excel and CSV files via drag-and-drop to build interactive dashboards with KPI cards, bar/line/pie charts, and comparison tables — no code required. All data processing happens locally via DuckDB-WASM; files never leave the browser.",
+        "tags": ["React", "TypeScript", "DuckDB-WASM", "ECharts"],
+        "url": "https://github.com/ahmet-yasir/exceltochart"
       }
     ]
   },
@@ -104,7 +110,8 @@
     "heading": "Contact",
     "subtitle": "Want to get in touch?",
     "email_label": "Email",
-    "location": "Ankara, Türkiye"
+    "location": "Location",
+    "location_value": "Ankara, Turkey"
   },
   "footer": {
     "copy": "© 2025 Ahmet Yasir Kulaksız"
